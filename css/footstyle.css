@@ -1,0 +1,77 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+
+.grigio
+{
+    background:#353535;
+    padding-top: 8px;
+}
+
+
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    padding-bottom:0px;
+}
+
+#barra
+{
+    color: white; 
+    background:rgb(26, 26, 26);
+}
+
+ul.social-network 
+{
+    margin-left:0 !important;
+    padding: 0;
+}
+
+ul.social-network li 
+{
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.fb
+{
+    background:#3B5998;
+    color:#fff;
+}
+
+.social-network a.tw
+{
+    background:#33ccff; 
+    color:#fff;
+}
+
+.social-network a.ln 
+{
+    background:#3B5998; 
+    color:#fff;
+}
+
+.social-circle li i 
+{
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a 
+{
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}

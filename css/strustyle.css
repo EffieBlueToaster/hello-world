@@ -1,0 +1,57 @@
+.lista
+{
+    color: rgb(49, 48, 48);
+	background: rgb(240, 240, 250);
+	box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+	padding: 0px;
+	margin-top: 0px;
+  	margin-bottom: 10px;
+  	margin-right: 0px;
+	display: inline-block;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: 10em;
+    transition: all .2s ease-in-out;
+}
+
+.lista:hover
+{
+    color: black;
+    background: #d6d4d4;
+    text-decoration:none;
+    transform: scale(1.06);
+}
+
+.button 
+{
+    margin-top: 30px;
+    height: 60px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 3px rgb(126, 126, 126);
+}
+  
+.button:hover 
+{
+    text-decoration: none;    
+    color: #fff;
+    transform: scale(1.1);
+}
+  
+.button:active 
+{
+    text-decoration: none;    
+    color: #fff;
+    box-shadow: 0 3px rgb(68, 68, 68);
+    transform: translateY(4px);
+}
+

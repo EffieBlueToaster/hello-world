@@ -1,0 +1,17 @@
+img
+{
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    border-radius: 180px;
+}
+    
+.avatar
+{
+    padding: 20px;
+    margin-left: 25px;
+}
+
+img:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
